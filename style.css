@@ -1,0 +1,17 @@
+h1, Nav, Section, footer {
+    text-align: center;
+    margin-bottom: 5px;
+    background: red;
+    padding: 20px;
+}
+Section, aside {
+    width: 50%;
+
+}
+aside {
+    float: left;
+
+}
+footer {
+
+}
