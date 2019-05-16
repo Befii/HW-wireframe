@@ -1,17 +1,36 @@
-h1, Nav, Section, footer {
+header, Nav, Section, footer, aside {
     text-align: center;
     margin-bottom: 5px;
     background: red;
     padding: 20px;
+    margin-left: 5px;
 }
-Section, aside {
-    width: 50%;
+#left
+ {
+    width: 40%;
+    float: left
 
 }
+
 aside {
-    float: left;
-
+    width: 45%;
+    float: right;
+    height: 175px;
 }
-footer {
 
+footer {
+    width: 100%;
+    clear: both;
+}
+Article {
+    padding: 10px;
+    background: gray;
+}
+h4{
+    padding: 6px;
+    background: white;
+}
+p{
+    padding: 6px;
+    background: white;
 }
